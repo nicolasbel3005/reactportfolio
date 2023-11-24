@@ -1,12 +1,12 @@
 import { Link, useLocation } from "react-router-dom";
-import chatea from "../assets/images/";
+import fitfolio from "../assets/images/";
 import vibrant from "../assets/images/";
-import code from "../assets/images/";
+import quiz from "../assets/images/";
 import generator from "../assets/images/";
 import weather from "../assets/images/";
-import landing from "../assets/images/";
-import Button from '';
-import Card from '';
+import portfolio from "../assets/images/";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 
 
 const projectData = [
