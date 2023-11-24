@@ -1,0 +1,125 @@
+@import url("");
+@import url("");
+
+* {
+  background-color: #e7d8c9;
+  color: #6b5a48;
+}
+h1 {
+  font-family: "playfair";
+  color: #879183;
+  letter-spacing: 7px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 40px;
+}
+h2 {
+  font-family: "Lobster", sans-serif;
+  padding: 10px;
+}
+.form {
+  margin: 20px;
+  display: block;
+}
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 25%;
+  border-radius: 10px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+#messageBox {
+  display: block;
+  text-align: justify;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  border-radius: 10px;
+  margin: 10px;
+  background-color: #6b5a48;
+  color: white;
+  font-family: 'playfair';
+  letter-spacing: 5px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.my-icon-class {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+li {
+  font-family: "playfair";
+  letter-spacing: 5px;
+}
+.project {
+  margin: 20px;
+  padding: 10px;
+}
+.project img {
+  width: 30%;
+}
+.profile {
+  width: 200px;
+  height: 290px;
+  margin: 40px;
+  border-radius: 95px 95px 0px 0px;
+  border: solid 3px #6b5a48;
+  display: flex;
+  justify-content: center;
+}
+.bio {
+  display: flex;
+  width: 800px;
+  letter-spacing: 5px;
+  line-height: -3px;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+textarea {
+  width: 25%;
+  border-radius: 10px;
+  background-color: white;
+}
+.my-buttons {
+  background-color: white;
+  color: #6b5a48;
+  border: none;
+  margin: 5px;
+}
+.card {
+  display: inline-flex;
+  margin: 10px;
+  padding: 10px;
+  color: #879183;
+  background-color: #6b5a48;
+  letter-spacing: 3px;
+  border-radius: 20px;
+}
+.title {
+  font-family: 'playfair';
+  letter-spacing: 5px;
+}
+.submit {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  text-align: center;
+  margin: 30px;
+}

@@ -1,0 +1,53 @@
+@import url('');
+@import url('');
+
+
+* {
+    background-color: #e7d8c9;
+    color: #6b5a48;
+}
+h1 {
+    font-family: 'playfair';
+    color: #879183;
+    letter-spacing: 7px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin: 40px;
+}
+h2 {
+    font-family: 'Lobster', sans-serif;
+    padding: 10px;
+}
+.form {
+    margin: 20px;
+}
+.form input {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 25%;
+    border-radius: 10px;
+}
+#messageBox {
+    display: block;
+    text-align: justify;
+    height: 100px;
+}
+button {
+    border-radius: 10px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.my-icon-class {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+li {
+    font-family: 'playfair';
+    letter-spacing: 5px;
+}
