@@ -1,33 +1,35 @@
 import { Link, useLocation } from "react-router-dom";
-import fitfolio from "../assets/images/";
-import vibrant from "../assets/images/";
-import quiz from "../assets/images/";
-import generator from "../assets/images/";
-import weather from "../assets/images/";
-import portfolio from "../assets/images/";
+
+import fitfolio from "../assets/images";
+import vibrant from "../assets/images";
+import quiz from "../assets/images";
+import generator from "../assets/images";
+import weather from "../assets/images";
+import portfolio from "../assets/images";
+
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 
 const projectData = [
   {
-    name: '',
-    imgSrc: ,
-    description: '',
+    name: 'FitFolio',
+    imgSrc: fitfolio,
+    description: 'fitness tracker',
     url: '',
     github: ''
   },
   {
-    name: ' ',
-    imgSrc: ,
-    description: '',
+    name: 'Vibrant Vocabs',
+    imgSrc: vibrantvocab,
+    description: 'a colorful dictionary with vibrant images',
     url: '',
     github: ''
   },
   {
-    name: '',
-    imgSrc: ,
-    description: '',
+    name: 'JavaScript Quiz',
+    imgSrc: quiz,
+    description: 'a quiz that tests your javascript knowledge',
     url: '',
     github: ''
   },
