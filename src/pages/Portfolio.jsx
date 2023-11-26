@@ -2,6 +2,6 @@
 
 export default function Portfolio(){
     return (
-        <h1>this is the Portfolio</h1>
+        <h1>This is my Portfolio</h1>
     )
 }

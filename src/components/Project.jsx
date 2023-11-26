@@ -16,43 +16,43 @@ const projectData = [
     name: 'FitFolio',
     imgSrc: fitfolio,
     description: 'fitness tracker',
-    url: '',
-    github: ''
+    url: 'https://fitfolio-acfec075c4c6.herokuapp.com/login',
+    github: 'https://github.com/Omar-Razo/FitFolio'
   },
   {
     name: 'Vibrant Vocabs',
     imgSrc: vibrantvocab,
     description: 'a colorful dictionary with vibrant images',
-    url: '',
-    github: ''
+    url: 'https://kthao21.github.io/Vibrant_Vocab/',
+    github: 'https://github.com/kthao21/Vibrant_Vocab'
   },
   {
     name: 'JavaScript Quiz',
     imgSrc: quiz,
     description: 'a quiz that tests your javascript knowledge',
-    url: '',
-    github: ''
+    url: 'https://nicolasbel3005.github.io/javaquiz/',
+    github: 'https://github.com/nicolasbel3005/javaquiz'
   },
   {
     name: 'Password Generator',
     imgSrc: generator,
     description: 'A random password generator',
-    url: '',
-    github: ''
+    url: 'https://nicolasbel3005.github.io/password-generator/',
+    github: 'https://github.com/nicolasbel3005/password-generator'
   },
   {
     name: 'Weather App',
     imgSrc: weather,
     description: 'A weather application that gives you a 5 day forecast of any city',
-    url: '',
-    github: ''
+    url: 'https://nicolasbel3005.github.io/weather/',
+    github: 'https://github.com/nicolasbel3005/weather'
   },
   {
     name: 'Landing Page',
     imgSrc: landing,
     description: 'first portfolio page',
-    url: '',
-    github: ''
+    url: 'https://nicolasbel3005.github.io/personal-portfolio/',
+    github: 'https://github.com/nicolasbel3005/personal-portfolio'
   },
 ];
 

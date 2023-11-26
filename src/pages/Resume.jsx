@@ -2,7 +2,7 @@
 
 export default function Resume(){
     return (
-        <h1>this is the Resume</h1>
+        <h1>This is my Resume</h1>
     )
         
 }
