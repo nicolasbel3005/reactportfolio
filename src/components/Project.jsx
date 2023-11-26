@@ -1,4 +1,3 @@
-import { Link, useLocation } from "react-router-dom";
 import fitfolio from "../assets/images/fitfolio.png";
 import vibrantvocab from "../assets/images/vibrantvocab.png";
 import javaquiz from "../assets/images/javaquiz.png";
