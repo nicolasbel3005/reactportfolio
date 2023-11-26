@@ -1,12 +1,10 @@
 import { Link, useLocation } from "react-router-dom";
-
-import fitfolio from "../assets/images";
-import vibrant from "../assets/images";
-import quiz from "../assets/images";
-import generator from "../assets/images";
-import weather from "../assets/images";
-import portfolio from "../assets/images";
-
+import fitfolio from "../assets/images/fitfolio.png";
+import vibrantvocab from "../assets/images/vibrantvocab.png";
+import javaquiz from "../assets/images/javaquiz.png";
+import pswgenerator from "../assets/images/pswgenerator.png";
+import weatherapp from "../assets/images/weatherapp.png";
+import portfolio from "../assets/images/portfolio.PNG";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
@@ -28,28 +26,28 @@ const projectData = [
   },
   {
     name: 'JavaScript Quiz',
-    imgSrc: quiz,
+    imgSrc: javaquiz,
     description: 'a quiz that tests your javascript knowledge',
     url: 'https://nicolasbel3005.github.io/javaquiz/',
     github: 'https://github.com/nicolasbel3005/javaquiz'
   },
   {
     name: 'Password Generator',
-    imgSrc: generator,
+    imgSrc: pswgenerator,
     description: 'A random password generator',
     url: 'https://nicolasbel3005.github.io/password-generator/',
     github: 'https://github.com/nicolasbel3005/password-generator'
   },
   {
     name: 'Weather App',
-    imgSrc: weather,
+    imgSrc: weatherapp,
     description: 'A weather application that gives you a 5 day forecast of any city',
     url: 'https://nicolasbel3005.github.io/weather/',
     github: 'https://github.com/nicolasbel3005/weather'
   },
   {
-    name: 'Landing Page',
-    imgSrc: landing,
+    name: 'First Portfolio',
+    imgSrc: portfolio,
     description: 'first portfolio page',
     url: 'https://nicolasbel3005.github.io/personal-portfolio/',
     github: 'https://github.com/nicolasbel3005/personal-portfolio'
