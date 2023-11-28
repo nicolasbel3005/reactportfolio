@@ -1,7 +1,8 @@
-
+import Project from "../components/Project";
 
 export default function Portfolio(){
     return (
-        <h1>This is my Portfolio</h1>
-    )
+        <div>  <Project /></div>
+    
+    );
 }

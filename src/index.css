@@ -1,11 +1,11 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: #354649; /* Dark teal for background */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -15,11 +15,11 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #ec6e4c; /* Coral color for links */
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #ea5532; /* Darker shade of coral for hover */
 }
 
 body {
@@ -42,12 +42,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #2a4045; /* Darker teal for buttons */
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #ec6e4c; /* Coral color for button hover */
 }
 button:focus,
 button:focus-visible {
@@ -56,13 +56,13 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
-    background-color: #ffffff;
+    color: #5a5a5a; /* Dark grey for light mode text */
+    background-color: #f0ede5; /* Light beige for light mode background */
   }
   a:hover {
-    color: #747bff;
+    color: #f28482; /* Soft red for link hover in light mode */
   }
   button {
-    background-color: #f9f9f9;
+    background-color: #f6f6f6; /* Light grey for buttons in light mode */
   }
 }

@@ -1,13 +1,10 @@
-/* @import url("");
-@import url("");
-
 * {
-  background-color: #e7d8c9;
-  color: #6b5a48;
+  background-color: #f0f4f8; /* Light blue-grey */
+  color: #333333; /* Darker grey for text */
 }
 h1 {
-  font-family: "playfair";
-  color: #879183;
+  font-family: "Roboto", sans-serif;
+  color: #1e90ff; /* Vivid blue */
   letter-spacing: 7px;
   display: flex;
   justify-content: center;
@@ -15,7 +12,7 @@ h1 {
   margin: 40px;
 }
 h2 {
-  font-family: "Lobster", sans-serif;
+  font-family: "Roboto", sans-serif;
   padding: 10px;
 }
 .form {
@@ -42,9 +39,9 @@ h2 {
 button {
   border-radius: 10px;
   margin: 10px;
-  background-color: #6b5a48;
+  background-color: #333333; /* Dark grey for buttons */
   color: white;
-  font-family: 'playfair';
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 5px;
   display: flex;
   margin-left: auto;
@@ -61,7 +58,7 @@ footer {
   margin: 10px;
 }
 li {
-  font-family: "playfair";
+  font-family: "Roboto", sans-serif;
   letter-spacing: 5px;
 }
 .project {
@@ -76,7 +73,7 @@ li {
   height: 290px;
   margin: 40px;
   border-radius: 95px 95px 0px 0px;
-  border: solid 3px #6b5a48;
+  border: solid 3px #333333;
   display: flex;
   justify-content: center;
 }
@@ -97,7 +94,7 @@ textarea {
 }
 .my-buttons {
   background-color: white;
-  color: #6b5a48;
+  color: #333333;
   border: none;
   margin: 5px;
 }
@@ -105,13 +102,13 @@ textarea {
   display: inline-flex;
   margin: 10px;
   padding: 10px;
-  color: #879183;
-  background-color: #6b5a48;
+  color: #1e90ff; /* Blue for card text */
+  background-color: #333333; /* Dark grey for card background */
   letter-spacing: 3px;
   border-radius: 20px;
 }
 .title {
-  font-family: 'playfair';
+  font-family: 'Roboto', sans-serif;
   letter-spacing: 5px;
 }
 .submit {
@@ -122,4 +119,4 @@ textarea {
 p {
   text-align: center;
   margin: 30px;
-} */
+}

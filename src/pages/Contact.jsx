@@ -8,11 +8,9 @@ export default function Contact() {
             <Row>
                 <Col>
                     <div>
-                        <h2>you can react me at the follosing: </h2>
+                        <h2>You can reach me at the follosing: </h2>
                         <ul>
-                            <li>email</li>
-                            <li>email</li>
-                            <li>email</li>
+                            <li>email:n.m.esquibel01@gmail.com</li>
                         </ul>
                     </div>
                 </Col>
