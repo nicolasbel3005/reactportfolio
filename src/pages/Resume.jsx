@@ -1,8 +1,10 @@
-
-
-export default function Resume(){
+export default function Resume() {
     return (
-        <h1>This is my Resume</h1>
-    )
-        
-}
+      <div>
+        <p>Download Button for Resume</p>
+      <a href='https://docs.google.com/document/d/1m2CfR2k6kk8DHROfzFe5nOxy_-rvoq-MbdNtD5hra34/edit'>
+        <button>Download Resume</button>
+      </a>
+      </div>
+    );
+  }
