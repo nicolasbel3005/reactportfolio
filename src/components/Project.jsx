@@ -3,7 +3,7 @@ import vibrantvocab from "../assets/images/vibrantvocab.png";
 import javaquiz from "../assets/images/javaquiz.png";
 import pswgenerator from "../assets/images/pswgenerator.png";
 import weatherapp from "../assets/images/weatherapp.png";
-import portfolio from "../assets/images/portfolio.PNG";
+import portfolio from "../assets/images/portfolio.png";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
